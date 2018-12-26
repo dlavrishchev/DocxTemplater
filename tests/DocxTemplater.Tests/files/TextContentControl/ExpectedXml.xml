@@ -1,0 +1,40 @@
+﻿<w:p w:rsidR="002918C8" w:rsidRPr="00E35726" w:rsidRDefault="002918C8" w:rsidP="002918C8" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:pPr>
+    <w:rPr>
+      <w:sz w:val="24" />
+      <w:szCs w:val="24" />
+      <w:lang w:val="en-US" />
+    </w:rPr>
+  </w:pPr>
+  <w:r>
+    <w:rPr>
+      <w:sz w:val="24" />
+      <w:szCs w:val="24" />
+    </w:rPr>
+    <w:t>Item1</w:t>
+  </w:r>
+  <w:r w:rsidRPr="00E35726">
+    <w:rPr>
+      <w:sz w:val="24" />
+      <w:szCs w:val="24" />
+      <w:lang w:val="en-US" />
+    </w:rPr>
+    <w:t xml:space="preserve">: </w:t>
+  </w:r>
+  <w:r>
+    <w:rPr>
+      <w:sz w:val="24" />
+      <w:szCs w:val="24" />
+      <w:lang w:val="en-US" />
+    </w:rPr>
+    <w:t>item1_data</w:t>
+  </w:r>
+  <w:r w:rsidR="00555F45" w:rsidRPr="00E35726">
+    <w:rPr>
+      <w:sz w:val="24" />
+      <w:szCs w:val="24" />
+      <w:lang w:val="en-US" />
+    </w:rPr>
+    <w:t>.</w:t>
+  </w:r>
+</w:p>

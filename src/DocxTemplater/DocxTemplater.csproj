@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>dlavrishchev</Authors>
+    <Description>Lightweight library written in C# for generating docx files from a template and xml data.</Description>
+	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	<Company />
+	<PackageTags>docx</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Avalux\Documents\Visual Studio 2017\Projects\DocxTemplater\DocxTemplater\DocxTemplater.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

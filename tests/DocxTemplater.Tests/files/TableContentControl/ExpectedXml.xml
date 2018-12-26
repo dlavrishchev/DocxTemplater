@@ -1,0 +1,185 @@
+﻿<w:body xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:tbl>
+    <w:tblPr>
+      <w:tblW w:w="5000" w:type="pct" />
+      <w:tblBorders>
+        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto" />
+        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto" />
+        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto" />
+        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto" />
+        <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto" />
+        <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto" />
+      </w:tblBorders>
+      <w:tblLayout w:type="fixed" />
+      <w:tblLook w:val="01E0" />
+    </w:tblPr>
+    <w:tblGrid>
+      <w:gridCol w:w="1102" />
+      <w:gridCol w:w="2146" />
+      <w:gridCol w:w="1681" />
+    </w:tblGrid>
+    <w:tr w:rsidR="005F4F8A" w:rsidRPr="00AB2E37" w:rsidTr="00FC170A">
+      <w:trPr>
+        <w:trHeight w:val="282" />
+        <w:tblHeader />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="512" w:type="pct" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p w:rsidR="005F4F8A" w:rsidRPr="00555F45" w:rsidRDefault="005F4F8A" w:rsidP="00555F45">
+          <w:pPr>
+            <w:jc w:val="center" />
+            <w:rPr>
+              <w:b />
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+            </w:rPr>
+          </w:pPr>
+          <w:r w:rsidRPr="00555F45">
+            <w:rPr>
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+            </w:rPr>
+            <w:t>Name</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="997" w:type="pct" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p w:rsidR="005F4F8A" w:rsidRPr="00555F45" w:rsidRDefault="005F4F8A" w:rsidP="00555F45">
+          <w:pPr>
+            <w:jc w:val="center" />
+            <w:rPr>
+              <w:b />
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+            </w:rPr>
+          </w:pPr>
+          <w:r w:rsidRPr="00555F45">
+            <w:rPr>
+              <w:b />
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+            </w:rPr>
+            <w:t>Album</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="781" w:type="pct" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p w:rsidR="005F4F8A" w:rsidRPr="00555F45" w:rsidRDefault="005F4F8A" w:rsidP="00555F45">
+          <w:pPr>
+            <w:jc w:val="center" />
+            <w:rPr>
+              <w:b />
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+            </w:rPr>
+          </w:pPr>
+          <w:r w:rsidRPr="00555F45">
+            <w:rPr>
+              <w:b />
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+            </w:rPr>
+            <w:t>Year</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr>
+      <w:trPr>
+        <w:trHeight w:val="283" />
+      </w:trPr>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="512" w:type="pct" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+            <w:jc w:val="center" />
+            <w:rPr>
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+              <w:lang w:val="en-US" />
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+              <w:lang w:val="en-US" />
+            </w:rPr>
+            <w:t>Camel</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="997" w:type="pct" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF" />
+            <w:ind w:left="-76" />
+            <w:jc w:val="center" />
+            <w:rPr>
+              <w:spacing w:val="-2" />
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+              <w:lang w:val="en-US" />
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:spacing w:val="-2" />
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+            </w:rPr>
+            <w:t>Mirage</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="781" w:type="pct" />
+          <w:vAlign w:val="center" />
+        </w:tcPr>
+        <w:p>
+          <w:pPr>
+            <w:widowControl w:val="0" />
+            <w:autoSpaceDE w:val="0" />
+            <w:autoSpaceDN w:val="0" />
+            <w:adjustRightInd w:val="0" />
+            <w:spacing w:before="29" w:line="213" w:lineRule="exact" />
+            <w:ind w:left="15" />
+            <w:jc w:val="center" />
+            <w:rPr>
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+              <w:lang w:val="en-US" />
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:sz w:val="22" />
+              <w:szCs w:val="22" />
+            </w:rPr>
+            <w:t>1974</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+  </w:tbl>
+</w:body>
