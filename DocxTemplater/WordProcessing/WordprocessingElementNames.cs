@@ -20,6 +20,7 @@ namespace DocxTemplater.WordProcessing
         public static readonly XName Bold =                 _ns + "b";
         public static readonly XName Italic =               _ns + "i";
         public static readonly XName Underline =            _ns + "u";
+        public static readonly XName Strike =               _ns + "strike";
         public static readonly XName Color =                _ns + "color";
         public static readonly XName Highlight =            _ns + "highlight";
         public static readonly XName Table =                _ns + "tbl";

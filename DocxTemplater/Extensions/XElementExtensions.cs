@@ -279,6 +279,12 @@ namespace DocxTemplater.Extensions
                 runProperties.Add(new XElement(WordprocessingElementNames.Underline, new XAttribute(WordprocessingElementNames.Val, "single")));
         }
 
+        public static void SetTextStrike(this XElement runProperties)
+        {
+            if (!runProperties.HaveElement(WordprocessingElementNames.Strike))
+                runProperties.Add(new XElement(WordprocessingElementNames.Strike));
+        }
+
         public static void SetTextColor(this XElement runProperties, string color)
         {
             var colorElement = runProperties.Element(WordprocessingElementNames.Color);

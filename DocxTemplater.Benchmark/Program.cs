@@ -53,7 +53,7 @@ namespace DocxTemplater.Benchmark
                     new XElement("c3", i, new XAttribute("bold", "true")),
                     new XElement("c4", i, new XAttribute("italic", "true")),
                     new XElement("c5", i, new XAttribute("underline", "true")),
-                    new XElement("c6", i),
+                    new XElement("c6", i, new XAttribute("strike", "true")),
                     new XElement("c7", i),
                     new XElement("c8", i),
                     new XElement("c9", i),

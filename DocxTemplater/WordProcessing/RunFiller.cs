@@ -22,6 +22,9 @@ namespace DocxTemplater.WordProcessing
             if (dataProvider.Underline)
                 runProperties.SetTextUnderlineSingle();
 
+            if (dataProvider.Strike)
+                runProperties.SetTextStrike();
+
             if (dataProvider.IsTextColorAssigned)
             {
                 var textColor = dataProvider.TextColor;

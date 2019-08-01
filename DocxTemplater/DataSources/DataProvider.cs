@@ -12,6 +12,7 @@ namespace DocxTemplater.DataSources
         public bool Bold => GetBooleanAttributeValue(DataAttributeNames.Bold);
         public bool Italic => GetBooleanAttributeValue(DataAttributeNames.Italic);
         public bool Underline => GetBooleanAttributeValue(DataAttributeNames.Underline);
+        public bool Strike => GetBooleanAttributeValue(DataAttributeNames.Strike);
         public bool IsTextColorAssigned => !string.IsNullOrWhiteSpace(TextColor);
         public bool IsHighlightColorAssigned => !string.IsNullOrWhiteSpace(HighlightColor);
 

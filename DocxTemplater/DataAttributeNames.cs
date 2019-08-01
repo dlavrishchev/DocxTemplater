@@ -7,5 +7,6 @@
         public const string Underline = "underline";
         public const string TextColor = "textColor";
         public const string HighlightColor = "highlightColor";
+        public const string Strike = "strike";
     }
 }

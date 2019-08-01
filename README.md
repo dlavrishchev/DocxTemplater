@@ -41,7 +41,7 @@ static class Program
                 new XElement("c3", i, new XAttribute("bold", "true")),
                 new XElement("c4", i, new XAttribute("italic", "true")),
                 new XElement("c5", i, new XAttribute("underline", "true")),
-                new XElement("c6", i),
+                new XElement("c6", i, new XAttribute("strike", "true")),
                 new XElement("c7", i),
                 new XElement("c8", i),
                 new XElement("c9", i),
@@ -66,5 +66,6 @@ static class Program
 |bold		  |true / false		 |
 |italic		  |true / false		 |
 |underline	  |true / false		 |
+|strike	      |true / false		 |
 |textColor	  |Color hex code in format '#RRGGBB'. For example, #005ce6	 |
 |highlightColor	  |black<br>blue<br>darkBlue<br>cyan<br>darkCyan<br>magenta<br>darkMagenta<br>red<br>darkRed<br>white<br>yellow<br>darkYellow<br>green<br>darkGreen<br>darkGray<br>lightGray|
