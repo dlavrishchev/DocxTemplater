@@ -84,7 +84,8 @@ namespace DocxTemplater
         {
             if (!_disposed)
             {
-                _package.Dispose();
+                _package?.Dispose();
+                _memoryStream?.Dispose();
                 _disposed = true;
             }
         }
@@ -97,6 +98,9 @@ namespace DocxTemplater
 
         private void PrepareMemoryStream(Stream sourceStream)
         {
+            if(_memoryStream != null)
+                _memoryStream.Dispose();
+
             _memoryStream = new MemoryStream();
             sourceStream.CopyTo(_memoryStream);
             _memoryStream.Position = 0;
